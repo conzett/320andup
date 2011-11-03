@@ -29,6 +29,7 @@ License: http://creativecommons.org/licenses/MIT/
 <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0">
 
 <!-- For all browsers -->
+<link href='http://fonts.googleapis.com/css?family=Cabin:600' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/style.css">
 
 <!--[if (lt IE 9) & (!IEMobile)]>
@@ -66,7 +67,42 @@ License: http://creativecommons.org/licenses/MIT/
 <body class="clearfix">
 
 <header role="banner">
-<h1>320 and Up</h1>
+    <h1>Heading 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at turpis a nibh dictum facilisis. Nullam ac lorem eget augue accumsan iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Maecenas sed malesuada purus. In hac habitasse platea dictumst. Fusce eget dolor eu neque auctor lobortis id elementum eros. Pellentesque malesuada convallis massa, semper congue sapien vestibulum ut.</p>
+    <h2>Heading 2</h2>
+    <ul>
+        <li>Something</li>
+        <li>Something</li>
+        <li>Something</li>
+        <li>Something</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at turpis a nibh dictum facilisis. Nullam ac lorem eget augue accumsan iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Maecenas sed malesuada purus. In hac habitasse platea dictumst. Fusce eget dolor eu neque auctor lobortis id elementum eros. Pellentesque malesuada convallis massa, semper congue sapien vestibulum ut.</p>
+    <h3>Heading 3</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at turpis a nibh dictum facilisis. Nullam ac lorem eget augue accumsan iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Maecenas sed malesuada purus. In hac habitasse platea dictumst. Fusce eget dolor eu neque auctor lobortis id elementum eros. Pellentesque malesuada convallis massa, semper congue sapien vestibulum ut.</p>
+    <ul>
+        <li>Something</li>
+        <li>Something</li>
+        <li>Something
+            <ul>
+                <li>Something
+                    <ul>
+                        <li>Something</li>
+                        <li>Something</li>
+                    </ul>
+                </li>
+                <li>Something</li>
+                <li>Something</li>
+                <li>Something</li>
+            </ul>
+        </li>
+        <li>Something</li>
+    </ul>
+    <h4>Heading 4</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at turpis a nibh dictum facilisis. Nullam ac lorem eget augue accumsan iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Maecenas sed malesuada purus. In hac habitasse platea dictumst. Fusce eget dolor eu neque auctor lobortis id elementum eros. Pellentesque malesuada convallis massa, semper congue sapien vestibulum ut.</p>
+    <h5>Heading 5</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at turpis a nibh dictum facilisis. Nullam ac lorem eget augue accumsan iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Maecenas sed malesuada purus. In hac habitasse platea dictumst. Fusce eget dolor eu neque auctor lobortis id elementum eros. Pellentesque malesuada convallis massa, semper congue sapien vestibulum ut.</p>
+    <h6>Heading 6</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at turpis a nibh dictum facilisis. Nullam ac lorem eget augue accumsan iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Maecenas sed malesuada purus. In hac habitasse platea dictumst. Fusce eget dolor eu neque auctor lobortis id elementum eros. Pellentesque malesuada convallis massa, semper congue sapien vestibulum ut.</p>
 </header>
 
 <div class="content clearfix">
@@ -90,22 +126,15 @@ License: http://creativecommons.org/licenses/MIT/
 <![endif]-->
 
 <script>
-// iOS scale bug fix
-MBP.scaleFix();
+    // iOS scale bug fix
+    MBP.scaleFix();
 
-// Respond.js
-yepnope({
-	test : Modernizr.mq('(min-width)'),
-	nope : ['js/libs/respond.min.js']
-});
+    // Respond.js
+    yepnope({
+        test: Modernizr.mq('(min-width)'),
+        nope: ['js/libs/respond.min.js']
+    });
 </script>
-
-<!-- http://mths.be/aab -->
-<script>
-var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-
 
 </body>
 </html>
