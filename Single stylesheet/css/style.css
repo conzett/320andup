@@ -52,7 +52,7 @@ body {
 margin : 0 auto;
 padding : 0;
 width : 90% /* 252px */;
-font : 12px Georgia, Times, "Times New Roman";
+font : 100%/1.4 Cambria, Georgia, Times, "Times New Roman";
 color : rgb(40,40,40); 
 background-color : transparent;
 }
@@ -73,8 +73,7 @@ h3,
 h4, 
 h5, 
 h6 {
-font-family : 'Cabin' sans-serif;
-font-weight : 600;
+font-family : "Helvetica Neue", Helvetica, Arial;
 }
 
 h1 { 
