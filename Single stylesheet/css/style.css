@@ -51,8 +51,8 @@ background-color : rgb(255,255,255);
 body { 
 margin : 0 auto;
 padding : 0;
-width : 90% /* 252px */;
-font : 12px Georgia, Times, "Times New Roman";
+width : 78.75% /* 252px */;
+font : 14px Georgia, Times, "Times New Roman";
 color : rgb(56,56,56); 
 }
 
@@ -76,39 +76,39 @@ font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1 { 
-  font-size: 2.8333em; /* 34px */
-  line-height: 1.0588em; /* 36px */
-  margin: 0.5294em 0;
+  font-size: 1.8571em; /* 26px */
+  line-height: 1.5385em; /* 40px */
+  margin: 0.7692em 0;;
 }
 
 h2 { 
-  font-size: 2.5em; /* 30px */
-  line-height: 1.2em; /* 36px */
-  margin: 0.6em 0;
+  font-size: 1.7143em; /* 24px */
+  line-height: 1.6667em; /* 40px */
+  margin: 0.8333em 0;
 }
 
 h3 { 
-  font-size: 2.1667em; /* 26px */
-  line-height: 1.3846em; /* 36px */
-  margin: 0.6923em 0;
+  font-size: 1.5714em; /* 22px */
+  line-height: 1.8182em; /* 40px */
+  margin: 0.9091em 0;
 }
 
 h4 { 
-  font-size: 1.8333em; /* 22px */
-  line-height: 1.6364em; /* 36px */
-  margin: 0.8182em 0;
-}
-
-h5 { 
-  font-size: 1.5em; /* 18px */
-  line-height: 1em; /* 18px */
+  font-size: 1.4286em; /* 20px */
+  line-height: 1em; /* 20px */
   margin: 1em 0;
 }
 
+h5 { 
+  font-size: 1.2857em; /* 18px */
+  line-height: 1.1111em; /* 20px */
+  margin: 1.1111em 0;
+}
+
 h6 { 
-  font-size: 1.1667em; /* 14px */
-  line-height: 1.2857em; /* 18px */
-  margin: 1.2857em 0;
+  font-size: 1.1429em; /* 16px */
+  line-height: 1.25em; /* 20px */
+  margin: 1.25em 0;
 }
 
 /* 3. TYPOGRAPHY (320 and Up typography defaults) ============================================================================= */
@@ -118,9 +118,9 @@ ol,
 ul, 
 dl, 
 address { 
-  font-size: 1em; /* 12px */
-  line-height: 1.5em; /* 18px */
-  margin: 0 0 1.5em 0;
+  font-size: 1em; /* 14px */
+  line-height: 1.4286em; /* 20px */
+  margin: 0 0 1.4286em 0;
 }
 
 p {
@@ -674,7 +674,7 @@ content : "";
 
 body {
 	width: 252px;
-	padding: 24px 34px;
+	padding: 0 34px;
 }
 
 /* 2 HEADINGS 				============================================================================= */
@@ -703,7 +703,7 @@ body {
 
 body {
 	width: 436px;
-	padding: 24px 22px;
+	padding: 0 22px;
 }
 
 /* 2 HEADINGS 				============================================================================= */
@@ -733,7 +733,7 @@ body {
 
 body {
 	width: 712px;
-	padding: 24px 28px;
+	padding: 0 28px;
 }
 
 /* 2 HEADINGS 				============================================================================= */
@@ -762,7 +762,7 @@ body {
 
 body {
 	width: 896px;
-	padding: 24px 48px;
+	padding: 0 48px;
 }	
 
 /* 2 HEADINGS 				============================================================================= */
