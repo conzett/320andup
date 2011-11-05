@@ -45,7 +45,7 @@ display : inline-block;
 
 html {
 overflow-y : scroll;
-background-color : rgb(255,255,255);
+background-color : rgb(32,32,32);
 }
 
 body { 
@@ -53,7 +53,7 @@ margin : 0 auto;
 padding : 0;
 width : 78.75% /* 252px */;
 font : 14px Georgia, Times, "Times New Roman";
-color : rgb(56,56,56); 
+color : rgb(215,215,215); 
 }
 
 button, 
@@ -206,8 +206,7 @@ pre,
 code, 
 kbd, 
 samp { 
-font-family : monospace, monospace; 
-_font-family : 'courier new', monospace; 
+font-family : monospace, monospace;
 font-size : .875em; 
 line-height : 1.5;
 }
@@ -700,6 +699,10 @@ body {
 @media only screen and (min-width: 480px) {
 
 /* 1 ROOT 					============================================================================= */
+
+html {
+	background-image:url('../img/m/black_linen_v2.png');
+}
 
 body {
 	width: 436px;
